@@ -12,12 +12,14 @@
   <style>
     body { 
       background-color: hsl(212, 45%, 89%);
-      place-items: center;
       font-family: "Outfit", sans-serif;
+      position: relative;
+      display: flex;
+      justify-content: center;
     }
     p {
       font-size: 14px;
-      color: gray;
+      color: hsl(216, 15%, 48%);
     }
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
@@ -36,6 +38,9 @@
       justify-content: space-between;
       border-radius: 20px;
       padding: 15px;
+      position: absolute;
+      margin-top: 10%;
+      box-shadow: 0px 20px 20px hsl(212, 35%, 79%);
     }
     .textbox {
       text-align: center;
@@ -45,16 +50,16 @@
 </head>
 
 <body>
-  <div class="box">
-    <img src="images/image-qr-code.png"/>
-    <div class="textbox">
-      <h3>Improve your front-end skills by building projects</h3>
-      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
-      <div class="attribution">
-        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-        Coded by <a href="#">Alliana Yang</a>.
+    <div class="box">
+      <img src="images/image-qr-code.png"/>
+      <div class="textbox">
+        <h3>Improve your front-end skills by building projects</h3>
+        <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+        <div class="attribution">
+          Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+          Coded by <a href="#">Alliana Yang</a>.
+        </div>
       </div>
     </div>
-  </div>
 </body>
 </html>
